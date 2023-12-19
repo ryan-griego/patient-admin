@@ -3,6 +3,9 @@
 import { resolve } from "path";
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  modules: [
+    '@invictus.codes/nuxt-vuetify'
+  ],
   postcss: {
     plugins: {
       tailwindcss: {},
