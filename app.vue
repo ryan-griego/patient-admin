@@ -158,7 +158,7 @@
       ],
       "from": {
         email: "app@myappdomain.xyz",
-        name: "My app"
+        name: "Ryan Griego - Web Developer"
       },
       "subject": "Test message!",
       "content": [
@@ -256,6 +256,9 @@
       let gender = item.gender;
       let trackingUrl = 'test';
 
+      let position = 'j';
+      let company = 'l';
+
 
       let msg = {
         "personalizations": [
@@ -270,13 +273,13 @@
         ],
         "from": {
           email: "ryangriego@gmail.com",
-          name: "My app"
+          name: "Ryan Griego / Web Developer"
         },
-        "subject": "Test message!",
+        "subject": `Recently applicant for ${position} at ${company} - a few resources to get to know me`,
         "content": [
           {
             type: "text/plain",
-            value: "Test message"
+            value: `Recently applicant for ${position} at ${company} - a few resources to get to know me`
           },
           {
             type: "text/html",
@@ -504,7 +507,7 @@
                             <td>
                               <a href="https://www.ryangriego.com/" target="_blank">
                                 <img alt="Ryan Griego logo" height="auto" class="emailImage"
-                                  src="https://www.ryangriego.com/images/portfolio-ryan-logo.png"
+                                  src="https://res.cloudinary.com/dm7y3yvjp/image/upload/v1703108432/lifemd-logo_ecac59.png"
                                   style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" />
                               </a>
                             </td>
@@ -542,23 +545,17 @@
                           <a class="mj-link" href="https://www.ryangriego.comhttps://www.ryangriego.com/"
                             target="_blank"
                             style="display:inline-block;color:#000000;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:normal;line-height:22px;text-decoration:none;text-transform:uppercase;padding:15px 10px;">
-                            <span style="letter-spacing:.2px">Portfolio</span>
+                            <span style="letter-spacing:.2px">Member Portal</span>
                           </a>
                           <!--[if mso | IE]></td><td style="padding:15px 10px;" class="" ><![endif]-->
                           <a class="mj-link"
                             href="https://www.ryangriego.comhttps://www.ryangriego.com/assets/ryan_griego_resume.pdf"
                             target="_blank"
                             style="display:inline-block;color:#000000;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:normal;line-height:22px;text-decoration:none;text-transform:uppercase;padding:15px 10px;">
-                            <span style="letter-spacing:.2px">Resume</span>
+                            <span style="letter-spacing:.2px">Blog</span>
                           </a>
                           <!--[if mso | IE]></td><td style="padding:15px 10px;" class="" ><![endif]-->
-                          <a class="mj-link"
-                            href="https://www.ryangriego.comhttps://www.linkedin.com/in/ryan-griego-2134a340/"
-                            target="_blank"
-                            style="display:inline-block;color:#000000;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:normal;line-height:22px;text-decoration:none;text-transform:uppercase;padding:15px 10px;">
-                            <span style="letter-spacing:.2px">LinkedIn</span>
-                          </a>
-                          <!--[if mso | IE]></td></tr></table><![endif]-->
+
                         </div>
                       </td>
                     </tr>
@@ -590,8 +587,8 @@
                         <div
                           style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:40px;line-height:1;text-align:left;color:#ffffff;">
                           <p style="font-size: 22px;line-height: 1.8rem">Hi ${name},</p>
-                          <p style="font-size: 13px;line-height: 1.2rem;">I heard ${medication} is looking for a
-                            ${gender}.<br /></p>
+                          <p style="font-size: 13px;line-height: 1.2rem;">I heard ${company} is looking for a
+                            ${position}.<br /></p>
                           <p style="font-size: 13px;line-height: 1.2rem;">I applied for the position yesterday and
                             wanted to reach out and further express my interest in the&nbsp;position.<br /></p>
                           <!-- <p>Try Me</p>
@@ -634,7 +631,7 @@
                             <tr>
                               <td style="width:400px;">
                                 <img alt="Clothes set" height="auto"
-                                  src="https://res.cloudinary.com/dm7y3yvjp/image/upload/v1626230794/portfolio/ryan-hero-sign-email-1_pipgjs.jpg"
+                                  src="https://res.cloudinary.com/dm7y3yvjp/image/upload/v1703108811/doctors_xlifii.png"
                                   style="border:none;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;"
                                   width="400" />
                               </td>
@@ -653,472 +650,7 @@
       </table>
     </div>
     <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" bgcolor="#2f323b" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="background:#2f323b;background-color:#2f323b;margin:0px auto;max-width:600px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
-        style="background:#2f323b;background-color:#2f323b;width:100%;">
-        <tbody>
-          <tr>
-            <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0px;padding-top:0;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
-              <div class="mj-column-per-100 mj-outlook-group-fix"
-                style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;"
-                  width="100%">
-                  <tbody>
-                    <tr>
-                      <td align="center"
-                        style="font-size:0px;padding:10px 25px;padding-top:10px;padding-right:25px;padding-bottom:10px;padding-left:25px;word-break:break-word;">
-                        <div
-                          style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:18px;line-height:1;text-align:center;color:#ffffff;">
-                          <p> 💻&nbsp;&nbsp;A FEW OF MY TECHNICAL SKILLS&nbsp;&nbsp;💻</p>
-                        </div>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
-        style="background:#ffffff;background-color:#ffffff;width:100%;">
-        <tbody>
-          <tr>
-            <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:20px;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:bottom;width:200px;" ><![endif]-->
-              <div class="mj-column-per-33-333333333333336 mj-outlook-group-fix"
-                style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:bottom;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:bottom;"
-                  width="100%">
-                  <tbody>
-                    <tr>
-                      <td align="center"
-                        style="font-size:0px;padding:10px 25px;padding-top:30px;padding-right:0px;padding-bottom:20px;padding-left:0px;word-break:break-word;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                          style="border-collapse:collapse;border-spacing:0px;">
-                          <tbody>
-                            <tr>
-                              <td style="width:120px;">
-                                <img alt="Chesterk tank" height="120"
-                                  src="https://res.cloudinary.com/dm7y3yvjp/image/upload/v1626231480/portfolio/icons/react_yz6djo.png"
-                                  style="border:none;display:block;outline:none;text-decoration:none;height:120px;width:100%;font-size:13px;"
-                                  width="120" />
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="center"
-                        style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:25px;padding-bottom:0px;padding-left:25px;word-break:break-word;">
-                        <div
-                          style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:15px;font-weight:bold;line-height:1;text-align:center;color:#000000;">
-                          <p>REACT</p>
-                        </div>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td><td class="" style="vertical-align:bottom;width:200px;" ><![endif]-->
-              <div class="mj-column-per-33-333333333333336 mj-outlook-group-fix"
-                style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:bottom;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:bottom;"
-                  width="100%">
-                  <tbody>
-                    <tr>
-                      <td align="center"
-                        style="font-size:0px;padding:10px 25px;padding-right:0px;padding-bottom:20px;padding-left:0px;word-break:break-word;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                          style="border-collapse:collapse;border-spacing:0px;">
-                          <tbody>
-                            <tr>
-                              <td style="width:120px;">
-                                <img alt="Beyond backpack" height="120"
-                                  src="https://res.cloudinary.com/dm7y3yvjp/image/upload/v1626231952/portfolio/icons/vue_fq4345.png"
-                                  style="border:none;display:block;outline:none;text-decoration:none;height:120px;width:100%;font-size:13px;"
-                                  width="120" />
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="center"
-                        style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:25px;padding-bottom:0px;padding-left:25px;word-break:break-word;">
-                        <div
-                          style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:15px;font-weight:bold;line-height:1;text-align:center;color:#000000;">
-                          <p>VUE</p>
-                        </div>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td><td class="" style="vertical-align:bottom;width:200px;" ><![endif]-->
-              <div class="mj-column-per-33-333333333333336 mj-outlook-group-fix"
-                style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:bottom;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:bottom;"
-                  width="100%">
-                  <tbody>
-                    <tr>
-                      <td align="center"
-                        style="font-size:0px;padding:10px 25px;padding-top:30px;padding-right:0px;padding-bottom:20px;padding-left:0px;word-break:break-word;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                          style="border-collapse:collapse;border-spacing:0px;">
-                          <tbody>
-                            <tr>
-                              <td style="width:120px;">
-                                <img alt="Jensen shorts" height="120"
-                                  src="https://res.cloudinary.com/dm7y3yvjp/image/upload/v1626231480/portfolio/icons/javascript_ifuclz.png"
-                                  style="border:none;display:block;outline:none;text-decoration:none;height:120px;width:100%;font-size:13px;"
-                                  width="120" />
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="center"
-                        style="font-size:0px;padding:10px 25px;padding-top:0px;padding-right:25px;padding-bottom:0px;padding-left:25px;word-break:break-word;">
-                        <div
-                          style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:15px;font-weight:bold;line-height:1;text-align:center;color:#000000;">
-                          <p>JAVASCRIPT</p>
-                        </div>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
-        style="background:#ffffff;background-color:#ffffff;width:100%;">
-        <tbody>
-          <tr>
-            <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:20px;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:bottom;width:200px;" ><![endif]-->
-              <div class="mj-column-per-33-333333333333336 mj-outlook-group-fix"
-                style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:bottom;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:bottom;"
-                  width="100%">
-                  <tbody>
-                    <tr>
-                      <td align="center"
-                        style="font-size:0px;padding:10px 25px;padding-top:20px;padding-right:0px;padding-bottom:20px;padding-left:0px;word-break:break-word;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                          style="border-collapse:collapse;border-spacing:0px;">
-                          <tbody>
-                            <tr>
-                              <td style="width:129px;">
-                                <img alt="Verdant cap" height="120"
-                                  src="https://res.cloudinary.com/dm7y3yvjp/image/upload/v1626231480/portfolio/icons/html5_kuymet.png"
-                                  style="border:none;display:block;outline:none;text-decoration:none;height:120px;width:100%;font-size:13px;"
-                                  width="129" />
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="center"
-                        style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:25px;padding-bottom:0px;padding-left:25px;word-break:break-word;">
-                        <div
-                          style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:15px;font-weight:bold;line-height:1;text-align:center;color:#000000;">
-                          <p>HTML5</p>
-                        </div>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td><td class="" style="vertical-align:bottom;width:200px;" ><![endif]-->
-              <div class="mj-column-per-33-333333333333336 mj-outlook-group-fix"
-                style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:bottom;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:bottom;"
-                  width="100%">
-                  <tbody>
-                    <tr>
-                      <td align="center"
-                        style="font-size:0px;padding:10px 25px;padding-top:20px;padding-right:0px;padding-bottom:20px;padding-left:0px;word-break:break-word;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                          style="border-collapse:collapse;border-spacing:0px;">
-                          <tbody>
-                            <tr>
-                              <td style="width:120px;">
-                                <img alt="Blake polo shirt" height="120"
-                                  src="https://res.cloudinary.com/dm7y3yvjp/image/upload/v1626231480/portfolio/icons/css3_qvw5pn.png"
-                                  style="border:none;display:block;outline:none;text-decoration:none;height:120px;width:100%;font-size:13px;"
-                                  width="120" />
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="center"
-                        style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:25px;padding-bottom:0px;padding-left:25px;word-break:break-word;">
-                        <div
-                          style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:15px;font-weight:bold;line-height:1;text-align:center;color:#000000;">
-                          <p>CSS3</p>
-                        </div>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td><td class="" style="vertical-align:bottom;width:200px;" ><![endif]-->
-              <div class="mj-column-per-33-333333333333336 mj-outlook-group-fix"
-                style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:bottom;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:bottom;"
-                  width="100%">
-                  <tbody>
-                    <tr>
-                      <td align="center"
-                        style="font-size:0px;padding:10px 25px;padding-top:20px;padding-right:0px;padding-bottom:20px;padding-left:0px;word-break:break-word;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                          style="border-collapse:collapse;border-spacing:0px;">
-                          <tbody>
-                            <tr>
-                              <td style="width:120px;">
-                                <img alt="Sketch floral" height="120"
-                                  src="https://res.cloudinary.com/dm7y3yvjp/image/upload/v1626231952/portfolio/icons/photoshop_loaxdz.png"
-                                  style="border:none;display:block;outline:none;text-decoration:none;height:120px;width:100%;font-size:13px;"
-                                  width="120" />
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="center"
-                        style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:25px;padding-bottom:0px;padding-left:25px;word-break:break-word;">
-                        <div
-                          style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:15px;font-weight:bold;line-height:1;text-align:center;color:#000000;">
-                          <p>PHOTOSHOP</p>
-                        </div>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" bgcolor="#1a9ba2" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="background:#1a9ba2;background-color:#1a9ba2;margin:0px auto;max-width:600px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
-        style="background:#1a9ba2;background-color:#1a9ba2;width:100%;">
-        <tbody>
-          <tr>
-            <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0px;padding-top:0;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:300px;" ><![endif]-->
-              <div class="mj-column-per-50 mj-outlook-group-fix"
-                style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;"
-                  width="100%">
-                  <tbody>
-                    <tr>
-                      <td align="center"
-                        style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:0px;padding-bottom:0px;padding-left:0px;word-break:break-word;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                          style="border-collapse:collapse;border-spacing:0px;">
-                          <tbody>
-                            <tr>
-                              <td style="width:300px;">
-                                <img alt="Man 1" height="auto"
-                                  src="https://res.cloudinary.com/dm7y3yvjp/image/upload/v1626543265/portfolio/ryan-email-space_usthuf.png"
-                                  style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;"
-                                  width="300" />
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:300px;" ><![endif]-->
-              <div class="mj-column-per-50 mj-outlook-group-fix"
-                style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;"
-                  width="100%">
-                  <tbody>
-                    <tr>
-                      <td align="left"
-                        style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:25px;padding-bottom:0px;padding-left:25px;word-break:break-word;">
-                        <div
-                          style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#ffffff;">
-                          <p style="font-size: 19px;">Ryan will</p>
-                          <p style="font-size: 36px;margin-top:-5px;">explore the unknown</p>
-                          <p>Check out his track record of companies.</p>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="center" vertical-align="middle"
-                        style="font-size:0px;padding:15px 30px;padding-top:0;padding-bottom:10px;word-break:break-word;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                          style="border-collapse:separate;line-height:100%;">
-                          <tr>
-                            <td align="center" bgcolor="#ffffff" role="presentation"
-                              style="border:none;border-radius:3px;cursor:auto;mso-padding-alt:10px 25px;background:#ffffff;"
-                              valign="middle">
-                              <a href="https://www.ryangriego.com/assets/ryan_griego_resume.pdf"
-                                style="display:inline-block;background:#ffffff;color:#1a9ba2;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:3px;"
-                                target="_blank">
-                                <strong>VIEW RESUME</strong>
-                              </a>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" bgcolor="#18b082" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="background:#18b082;background-color:#18b082;margin:0px auto;max-width:600px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
-        style="background:#18b082;background-color:#18b082;width:100%;">
-        <tbody>
-          <tr>
-            <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0px;padding-top:0;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:300px;" ><![endif]-->
-              <div class="mj-column-per-50 mj-outlook-group-fix"
-                style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;"
-                  width="100%">
-                  <tbody>
-                    <tr>
-                      <td align="left"
-                        style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:25px;padding-bottom:0px;padding-left:25px;word-break:break-word;">
-                        <div
-                          style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#ffffff;">
-                          <p style="font-size: 19px;">Ryan will also</p>
-                          <p style="font-size: 36px;margin-top:-5px;">Dive deep to find solutions</p>
-                          <p>Check out the technologies he works with.</p>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="center" vertical-align="middle"
-                        style="font-size:0px;padding:15px 30px;padding-top:0;padding-bottom:10px;word-break:break-word;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                          style="border-collapse:separate;line-height:100%;">
-                          <tr>
-                            <td align="center" bgcolor="#ffffff" role="presentation"
-                              style="border:none;border-radius:3px;cursor:auto;mso-padding-alt:10px 25px;background:#ffffff;"
-                              valign="middle">
-                              <a href="https://www.ryangriego.com/"
-                                style="display:inline-block;background:#ffffff;color:#1a9ba2;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:3px;"
-                                target="_blank">
-                                <strong>VIEW PORTFOLIO</strong>
-                              </a>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:300px;" ><![endif]-->
-              <div class="mj-column-per-50 mj-outlook-group-fix"
-                style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;"
-                  width="100%">
-                  <tbody>
-                    <tr>
-                      <td align="center"
-                        style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:0px;padding-bottom:0px;padding-left:0px;word-break:break-word;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                          style="border-collapse:collapse;border-spacing:0px;">
-                          <tbody>
-                            <tr>
-                              <td style="width:300px;">
-                                <img alt="Man 2" height="auto"
-                                  src="https://res.cloudinary.com/dm7y3yvjp/image/upload/v1626543265/portfolio/ryan-email-scuba_hzc5nt.png"
-                                  style="border:none;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;"
-                                  width="300" />
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" bgcolor="#2f323b" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="background:#2f323b;background-color:#2f323b;margin:0px auto;max-width:600px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
-        style="background:#2f323b;background-color:#2f323b;width:100%;">
-        <tbody>
-          <tr>
-            <td
-              style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:20px;padding-top:20px;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
-              <div class="mj-column-per-100 mj-outlook-group-fix"
-                style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;"
-                  width="100%">
-                  <tbody>
-                    <!-- <mj-image src="http://191n.mj.am/img/191n/3s/x48.png" alt="Currencies" align="center" border="none" width="70px" padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="10px"></mj-image> -->
-                    <tr>
-                      <td align="center"
-                        style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:25px;padding-bottom:0px;padding-left:25px;word-break:break-word;">
-                        <div
-                          style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:center;color:#ffffff;">
-                          <p style="font-size: 45px;font-weight: bold;">R/G</p>
-                          <p style="font-size: 15px;font-weight: bold;">Thank you for checking me out</p>
-                          <p style="line-height:20px">This email was sent with an app I built using React, Nodemailer,
-                            Material UI, and&nbsp;axios.</p>
-                        </div>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+
     <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" bgcolor="#eeeee" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     <div style="background:#eeeee;background-color:#eeeee;margin:0px auto;max-width:600px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
@@ -1143,8 +675,8 @@
                                 <a href="https://www.ryangriego.com/assets/ryan_griego_resume.pdf" target="_blank">
                                   <img alt="Ryan Griego logo" height="auto"
                                     src="https://www.ryangriego.com/images/portfolio-ryan-logo.png"
-                                    style="border:none;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;"
-                                    width="180" />
+                                    style="border:none;display:block;outline:none;text-decoration:none;height:auto;width:75%;font-size:13px;"
+                                    width="100" />
                                 </a>
                               </td>
                             </tr>
@@ -1259,6 +791,7 @@ Call me maybe?
   <img src=${trackingUrl}>
 </body>
 </html>
+
 `
           }
         ]
