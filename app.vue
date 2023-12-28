@@ -262,15 +262,16 @@
       let name =  item.name;
       let medication = item.medication;
       let gender = item.gender;
+      let condition = item.condition;
       console.log("log the gender", gender);
       let heroImage = '';
 
       // this can be improved by passing in the gender value into the url and each image either ends with male or female
       if(gender == 'male') {
         console.log('got in male');
-        heroImage = 'src="https://res.cloudinary.com/dm7y3yvjp/image/upload/v1703108432/lifemd-logo_ecac59.png"';
+        heroImage = 'src="https://res.cloudinary.com/dm7y3yvjp/image/upload/v1703726366/LMD_Brad_BA_MOB_w7jtnv.jpg"';
       } else {
-        heroImage = 'src="https://res.cloudinary.com/dm7y3yvjp/image/upload/v1703108811/doctors_xlifii.png"';
+        heroImage = 'src="https://res.cloudinary.com/dm7y3yvjp/image/upload/v1703726369/LMD_Maria_BA_DT_110623_bvrjeh.jpg"';
       }
 
       let msg = {
@@ -555,14 +556,14 @@
                         </div>
                         <div class="mj-inline-links" style="">
                           <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center"><tr><td style="padding:15px 10px;" class="" ><![endif]-->
-                          <a class="mj-link" href="https://www.ryangriego.com/"
+                          <a class="mj-link" href="https://members.lifemd.com/"
                             target="_blank"
                             style="display:inline-block;color:#000000;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:normal;line-height:22px;text-decoration:none;text-transform:uppercase;padding:15px 10px;">
                             <span style="letter-spacing:.2px">Member Portal</span>
                           </a>
                           <!--[if mso | IE]></td><td style="padding:15px 10px;" class="" ><![endif]-->
                           <a class="mj-link"
-                            href="https://www.ryangriego.comhttps://www.ryangriego.com/assets/ryan_griego_resume.pdf"
+                            href="https://lifemd.com/learn"
                             target="_blank"
                             style="display:inline-block;color:#000000;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:normal;line-height:22px;text-decoration:none;text-transform:uppercase;padding:15px 10px;">
                             <span style="letter-spacing:.2px">Blog</span>
@@ -601,7 +602,7 @@
                           style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:40px;line-height:1;text-align:left;color:#ffffff;">
                           <p style="font-size: 22px;line-height: 1.8rem">Dear ${name},</p>
                           <p style="font-size: 13px;line-height: 1.2rem;">
-Your commitment to weight loss is commendable and showcases your inner strength and resilience. Each healthy choice is a step toward a brighter, more vibrant future.
+Your commitment to ${condition} is commendable and showcases your inner strength and resilience. Each healthy choice in addition to ${medication} is a step toward a brighter, more vibrant future.
 Wishing you continued success and good health,<br /></p>
                           <!-- <p>Try Me</p>
           <p>FREE</p> -->
@@ -644,7 +645,7 @@ Wishing you continued success and good health,<br /></p>
                               <td style="width:400px;">
                                 <img alt="Doctors" height="auto"
                                   ${heroImage}
-                                  style="border:none;display:block;outline:none;text-decoration:none;height:auto;width:75%;font-size:13px;"
+                                  style="border:none;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;"
                                   width="400" />
                               </td>
                             </tr>
