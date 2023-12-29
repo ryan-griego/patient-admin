@@ -10,7 +10,6 @@
       :headers="headers"
       :items="patients"
       :sort-by="[{ key: 'name', order: 'asc' }]"
-
     >
       <template v-slot:top>
         <v-toolbar flat>
@@ -64,7 +63,6 @@
                   </v-row>
                 </v-container>
               </v-card-text>
-
               <v-card-actions>
                 <v-spacer></v-spacer>
                 <v-btn color="blue-darken-1" variant="text" @click="close">
@@ -92,7 +90,6 @@
                   @click="deleteItemConfirm"
                   >OK</v-btn
                 >
-
                 <v-spacer></v-spacer>
               </v-card-actions>
             </v-card>
@@ -242,18 +239,6 @@
         this.editedItem = Object.assign({}, item)
         this.dialogDelete = true
       },
-
-      // sendEmail(item) {
-      //   console.log('log the item being clicked', item);
-      // this.editedIndex = this.patients.indexOf(item)
-      // this.editedItem = Object.assign({}, item)
-      // { data } = await useFetch("/api/sendgrid", {
-      //   method: "POST",
-      //   body: msg
-      // });
-
-      // this.dialogDelete = true
-    // },
 
     async SendEmail(item) {
       let html = ""
