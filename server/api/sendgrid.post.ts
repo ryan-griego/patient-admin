@@ -16,33 +16,3 @@ export default defineEventHandler(async (event) => {
     });
   return sgRequest;
 });
-
-
-// const SendEmail = async () => {
-//   let msg = {
-//     "personalizations": [{
-//       to: [{
-//         email: "ryangriego@gmail.com",
-//         name: "Name"
-//       }]
-//     }],
-//     "from": {
-//       email: "ryangriego@gmail.com",
-//       name: "My app"
-//     },
-//     "subject": "Test message!",
-//     "content": [{
-//       type: "text/plain",
-//       value: "Test message"
-//     }, {
-//       type: "text/html",
-//       value: "<h1>Test message!</h1>"
-//     }]
-//   }
-//   const {
-//     data
-//   } = await useFetch("/api/sendgrid", {
-//     method: "POST",
-//     body: msg
-//   });
-// }
