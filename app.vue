@@ -256,23 +256,13 @@
     // },
 
     async SendEmail(item) {
-      console.log("log the info", item);
       let html = ""
 
       let name =  item.name;
       let medication = item.medication;
       let gender = item.gender;
       let condition = item.condition;
-      console.log("log the gender", gender);
-      let heroImage = '';
-
-      // this can be improved by passing in the gender value into the url and each image either ends with male or female
-      if(gender == 'male') {
-        console.log('got in male');
-        heroImage = 'src="https://res.cloudinary.com/dm7y3yvjp/image/upload/v1703726366/LMD_Brad_BA_MOB_w7jtnv.jpg"';
-      } else {
-        heroImage = 'src="https://res.cloudinary.com/dm7y3yvjp/image/upload/v1703726369/LMD_Maria_BA_DT_110623_bvrjeh.jpg"';
-      }
+      heroImage = `src="https://res.cloudinary.com/dm7y3yvjp/image/upload/v1703726366/LMD_${gender}.jpg"`;
 
       let msg = {
         "personalizations": [
